@@ -6,7 +6,7 @@ import iconSearch from '../assets/images/search.png'
 export function Navbar() {
     return (
         <>
-            <nav className='w-screen flex items-center justify-between p-[50px]'>
+            <nav className='w-screen h-24 flex items-center justify-between p-[50px]'>
                 <div className='flex items-center gap-8'>
                         <img src={logoMenu} alt="Logo Menu"  className='hover:cursor-pointer'/>
                         <img src={logo} alt="Logo EletronicX" />
