@@ -9,6 +9,7 @@ import appleWatchSe from './assets/images/watch-se.png'
 import appleWatchSeries10 from './assets/images/watch-series-10.png'
 import appleWatchUltra2 from './assets/images/watch-ultra-2.png'
 import imgSuporte from './assets/images/suporte.png'
+import { Footer } from "./components/Footer"
 
 
 
@@ -66,7 +67,7 @@ function App() {
 
           {/* SECTION SMARTPHONES */}
           <section className="w-screen h-screen flex justify-center items-center">
-                      <div className="w-screen h-[648px] flex items-center justify-center gap-24">
+                      <div className="w-screen h-screen flex items-center justify-center gap-24">
                               <SmartWatch 
                               src={appleWatchSe}
                               productName={"Apple Watch SE"}
@@ -100,6 +101,8 @@ function App() {
 
                     <img src={imgSuporte} alt="Imagem dos atendentes do suporte" />
           </section>
+
+          <Footer />
     </>
   )
 }
