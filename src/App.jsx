@@ -4,6 +4,10 @@ import imgIphone13 from './assets/images/iphone13.png'
 import imgIphone14 from './assets/images/iphone14.png'
 import imgIphone15 from './assets/images/iphone15.png'
 import imgIphone16 from './assets/images/iphone16.png'
+import { SmartWatch } from "./components/SmartWatch"
+import appleWatchSe from './assets/images/watch-se.png'
+import appleWatchSeries10 from './assets/images/watch-series-10.png'
+import appleWatchUltra2 from './assets/images/watch-ultra-2.png'
 
 
 
@@ -53,6 +57,34 @@ function App() {
                               phoneName={"iPhone 16"}
                               description={"Poderoso em tudo."}
                               price={"A partir de R$ 649,92/mês ou R$ 7.799*"}
+                              />
+                      </div>
+          </section>
+
+          <hr />
+
+          {/* SECTION SMARTPHONES */}
+          <section className="w-screen h-screen flex justify-center items-center">
+                      <div className="w-[1440px] h-[648px] flex items-center justify-center gap-10">
+                              <SmartWatch 
+                              src={appleWatchSe}
+                              productName={"Apple Watch SE"}
+                              content={"Tudo que é essencial ao alcance do seu pulso."}
+                              price={"A partir de R$ 5.499"}
+                              />
+
+                              <SmartWatch 
+                              src={appleWatchSeries10}
+                              productName={"Apple Watch Series 10"}
+                              content={"O mais fino. Com a maior tela e recursos avançados de saúde."}
+                              price={"A partir de R$ 5.499"}
+                              />
+
+                              <SmartWatch 
+                              src={appleWatchUltra2}
+                              productName={"Apple Watch Ultra 2"}
+                              content={"O relógio definitivo para esportes e aventura."}
+                              price={"A partir de R$ 874,92"}
                               />
                       </div>
           </section>
