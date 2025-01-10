@@ -32,7 +32,7 @@ function App() {
 
           {/* SECTION SMARTPHONES */}
           <section className="w-screen h-screen flex justify-center items-center">
-                      <div className="w-full h-[648px] flex items-center justify-center gap-28">
+                      <div className="w-full h-[648px] flex items-center justify-center gap-10">
                               <Smartphones 
                               srcImage={imgIphone13}
                               phoneName={"iPhone 13"}
