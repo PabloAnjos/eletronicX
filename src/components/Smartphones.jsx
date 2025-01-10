@@ -6,7 +6,7 @@ export function Smartphones({ srcImage, phoneName, description, price }) {
     return (
         <>
             <div className='flex flex-col items-center'>
-                    <img src={srcImage} alt="Imagem smartphone Iphone" className='w-[230px] h-[300px]' />
+                    <img src={srcImage} alt="Imagem smartphone Iphone" className='w-[200px] h-[250px]' />
                     <h1 className='text-white text-4xl mt-14'>{phoneName}</h1>
                     <p className='text-base text-light-blue mt-5'>{description}</p>
                     <p className='text-lg text-white font-semibold text-center mt-5'>{price}</p>

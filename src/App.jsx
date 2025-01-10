@@ -30,7 +30,7 @@ function App() {
 
           {/* SECTION SMARTPHONES */}
           <section className="w-screen h-screen flex justify-center items-center">
-                      <div className="w-[1440px] h-[648px] flex items-center justify-center gap-10">
+                      <div className="w-full h-[648px] flex items-center justify-center gap-28">
                               <Smartphones 
                               srcImage={imgIphone13}
                               phoneName={"iPhone 13"}
@@ -65,7 +65,7 @@ function App() {
 
           {/* SECTION SMARTPHONES */}
           <section className="w-screen h-screen flex justify-center items-center">
-                      <div className="w-[1440px] h-[648px] flex items-center justify-center gap-10">
+                      <div className="w-screen h-[648px] flex items-center justify-center gap-24">
                               <SmartWatch 
                               src={appleWatchSe}
                               productName={"Apple Watch SE"}
